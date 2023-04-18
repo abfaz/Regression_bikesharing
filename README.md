@@ -38,9 +38,20 @@ The dataset requires some preprocessing before it can be used for training and t
 
 
 ## Model
-Various machine learning algorithims, such as Linear regression, Lasso Regression, Ridge Regression,  Decision Tree, Extra Decesion Trees and Random Forest regressor, will be tested and evaluated to determine the best-performing model. The modesl are trained on 80% of the data and evaluated on the remaining 20%. Extra Trees Regression model is the best performing model with the highest R2-score (0.874) achieved.
+Various machine learning algorithims, such as Linear regression, Lasso Regression, Ridge Regression,  Decision Tree, Extra Decesion Trees and Random Forest regressor, will be tested and evaluated to determine the best-performing model. The models are trained on 80% of the data and evaluated on the remaining 20%. Extra Trees Regression model is the best performing model with the highest R2-score (0.874) achieved.
 
 
+##  Conclussion
+We used R2-score to understand which model fit our data better, and the scores are as follows:
+1. Linear Regression - 0.551500
+2. Lasso (L1) Regression - 0.549425
+3. Ridge (L2) Regression - 0.551497
+4. Elastic-Net Regression - 0.550229
+5. Decision Tree Regressor - 0.783009
+6. Random Forest Regressor - 0.861200
+7. Extra Trees Regressor - 0.873917
+
+From the above, we can say that the Extra Trees Regression model is the best performing model with the highest R2-score (0.874) achieved.
 
 
 
